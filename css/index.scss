@@ -1,12 +1,25 @@
-$main-width: 60%;
-$header-height: 50px;
-$header-left-width: 200px;
-$content-left-width: 200px;
+$main-width: 70%;
+$header-height: 70px;
+$header-left-width: 300px;
+$content-left-width: 300px;
+$name-font-size: 400%;
+$sidepanel-font-size: 200%;
+$nav-font-size: 150%;
+$project-image-size: 50px;
 
 @mixin container-of-float-div() {
   width: auto;
-  overflow-y: hidden;
   position: relative;
+}
+
+@mixin first-float-div($width) {
+  float: left;
+  width: $width;
+}
+
+@mixin remaining-float-div($left-margin) {
+  margin-left: $left-margin;
+  overflow: hidden;
 }
 
 body {
@@ -15,6 +28,7 @@ body {
 
 .container {
   width: $main-width;
+  min-width: 500px;
   margin: auto;
 }
 
@@ -24,25 +38,23 @@ body {
 }
 
 .name {
-  float: left;
-  width: $header-left-width;
-  height: $header-height;
-  font-size: 300%;
+  @include first-float-div($header-left-width);
+  font-size: $name-font-size;
 }
 
-.navigation-container {
-  width: auto;
+.nav-container {
+  @include remaining-float-div($header-left-width);
   height: $header-height;
-  margin-left: $header-left-width;
 }
 
-.navigation {
+.nav {
   display: inline-block;
   position: relative;
   margin: 10px;
+  font-size: $nav-font-size;
 }
 
-.navigation-indicator {
+.nav-indicator {
   height: 20%;
   background-color: gray;
 }
@@ -58,10 +70,38 @@ a {
 }
 
 .sidepanel {
-  width: $content-left-width;
-  float: left;
+  @include first-float-div($content-left-width);
+  font-size: $sidepanel-font-size;
 }
 
 .detail {
-  margin-left: $content-left-width;
+  @include remaining-float-div($content-left-width);
 }
+
+.project {
+  @include container-of-float-div();
+}
+
+.project-title {
+  font-size: 150%;
+}
+
+.project-image {
+  @include first-float-div($project-image-size);
+}
+
+.project-description {
+  @include remaining-float-div($project-image-size);
+  padding: 10px;
+}
+
+.project-image img {
+  width: $project-image-size;
+  height: $project-image-size;
+}
+
+.project-bar {
+  height: 10px;
+  background-color: gray;
+}
+
