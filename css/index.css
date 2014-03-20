@@ -1,58 +1,49 @@
 body {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 .container {
   width: 60%;
-  margin: auto;
-}
+  margin: auto; }
 
 .header-container {
   width: auto;
   overflow-y: hidden;
   position: relative;
-}
+  margin: 10px; }
 
 .name {
   float: left;
-  width: 40%;
+  width: 200px;
   height: 50px;
-  font-size: 300%;
-}
+  font-size: 300%; }
 
 .navigation-container {
   width: auto;
   height: 50px;
-  margin-left: 40%;
-}
+  margin-left: 200px; }
 
 .navigation {
   display: inline-block;
   position: relative;
-  margin: 10px;
-}
+  margin: 10px; }
 
 .navigation-indicator {
   height: 20%;
-  background-color: gray;
-}
+  background-color: gray; }
 
 a {
   color: inherit;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .content-container {
   width: auto;
   overflow-y: hidden;
   position: relative;
-}
+  margin: 10px; }
 
-.sidepane {
-  width: 40%;
-  float: left;
-}
+.sidepanel {
+  width: 200px;
+  float: left; }
 
 .detail {
-  margin-left: 40%;
-}
+  margin-left: 200px; }
