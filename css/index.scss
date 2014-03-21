@@ -40,6 +40,7 @@ body {
 .name {
   @include first-float-div($header-left-width);
   font-size: $name-font-size;
+  font-weight: bold;
 }
 
 .nav-container {
@@ -105,3 +106,7 @@ a {
   background-color: gray;
 }
 
+body {
+  background-color: #fff;
+  background-image: linear-gradient(90deg, transparent 79%, #abced4 79%, #abced4 81%, transparent 81%);
+}
