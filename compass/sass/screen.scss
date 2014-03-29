@@ -9,7 +9,6 @@ $header-height: 70px;
 $header-left-width: 300px;
 $content-left-width: 300px;
 $name-font-size: 400%;
-$sidepanel-font-size: 200%;
 $nav-font-size: 150%;
 $event-image-size: 50px;
 
@@ -33,28 +32,35 @@ body {
 
   .container {
     .header-container {
-      @include container-of-float-div();
       height: $header-height;
       border-bottom: 2px solid #d6d6d6;
 
-      .name {
-        @include first-float-div($header-left-width);
+      .header-content {
+        @include container-of-float-div();
+        width: 600px;
         height: $header-height;
-        font-size: $name-font-size;
-        font-weight: bold;
+        margin: 0 auto;
+
+        .name {
+          @include first-float-div($header-left-width);
+          height: $header-height;
+          font-size: $name-font-size;
+          font-weight: bold;
+        }
       }
-    }
 
-    .nav-container {
-      @include remaining-float-div($header-left-width);
-      padding-top: $header-height * 0.3;
-      height: $header-height * 0.7;
+      .nav-container {
+        @include remaining-float-div($header-left-width);
+        padding-top: $header-height * 0.3;
+        height: $header-height * 0.7;
 
-      .nav {
-        display: inline-block;
-        position: relative;
-        margin: 10px;
-        font-size: $nav-font-size;
+        .nav {
+          display: inline-block;
+          position: relative;
+          margin: 10px;
+          font-size: $nav-font-size;
+          font-weight: bolder;
+        }
       }
     }
 
@@ -70,6 +76,7 @@ body {
 
         .event-title {
           font-size: 150%;
+          font-weight: bolder;
         }
 
         .event-detail {

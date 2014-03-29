@@ -67,46 +67,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 body {
   font-family: sans-serif;
 }
-/* line 35, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 body .container .header-container {
-  width: auto;
-  position: relative;
   height: 70px;
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 40, ../sass/screen.scss */
-body .container .header-container .name {
+/* line 38, ../sass/screen.scss */
+body .container .header-container .header-content {
+  width: auto;
+  position: relative;
+  width: 600px;
+  height: 70px;
+  margin: 0 auto;
+}
+/* line 44, ../sass/screen.scss */
+body .container .header-container .header-content .name {
   float: left;
   width: 300px;
   height: 70px;
   font-size: 400%;
   font-weight: bold;
 }
-/* line 48, ../sass/screen.scss */
-body .container .nav-container {
+/* line 52, ../sass/screen.scss */
+body .container .header-container .nav-container {
   margin-left: 300px;
   overflow: hidden;
   padding-top: 21px;
   height: 49px;
 }
-/* line 53, ../sass/screen.scss */
-body .container .nav-container .nav {
+/* line 57, ../sass/screen.scss */
+body .container .header-container .nav-container .nav {
   display: inline-block;
   position: relative;
   margin: 10px;
   font-size: 150%;
+  font-weight: bolder;
 }
-/* line 61, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 body .container .content-container {
   width: auto;
   position: relative;
   margin: 10px;
 }
-/* line 65, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 body .container .content-container .event {
   width: auto;
   position: relative;
@@ -114,27 +121,28 @@ body .container .content-container .event {
   margin: 20px auto;
   border-bottom: 1px dotted #ccc;
 }
-/* line 71, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 body .container .content-container .event .event-title {
   font-size: 150%;
+  font-weight: bolder;
 }
-/* line 76, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 body .container .content-container .event .event-detail .event-image {
   float: left;
   width: 50px;
 }
-/* line 79, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 body .container .content-container .event .event-detail .event-image img {
   width: 50px;
   height: 50px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 body .container .content-container .event .event-detail .event-description {
   margin-left: 50px;
   overflow: hidden;
   padding: 10px;
 }
-/* line 94, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 body a {
   color: inherit;
   text-decoration: none;
