@@ -1,0 +1,54 @@
+/*
+Syntax error: File to import not found or unreadable: compass/reset.
+              Load paths:
+                /home/cobra/Desktop/cobra-kao.github.io
+                /home/cobra/Desktop/cobra-kao.github.io
+        on line 6 of ./compass/sass/screen.scss
+
+1: /* Welcome to Compass.
+2:  * In this file you should write your main styles. (or centralize your imports)
+3:  * Import this file using the following HTML or equivalent:
+4:  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> *\/
+5: 
+6: @import "compass/reset";
+
+Backtrace:
+./compass/sass/screen.scss:6
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/import_node.rb:45:in `import'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/tree/root_node.rb:20:in `render'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/engine.rb:315:in `_render'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/engine.rb:262:in `render'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/plugin/compiler.rb:201:in `each'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/home/cobra/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.18/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/reset.\A               Load paths:\A                 /home/cobra/Desktop/cobra-kao.github.io\A                 /home/cobra/Desktop/cobra-kao.github.io\A         on line 6 of ./compass/sass/screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";"; }

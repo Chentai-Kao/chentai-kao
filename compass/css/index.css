@@ -1,0 +1,72 @@
+/* line 24, ../sass/index.scss */
+body {
+  font-family: sans-serif;
+}
+/* line 28, ../sass/index.scss */
+body .container .header-container {
+  width: auto;
+  position: relative;
+  height: 70px;
+  border-bottom: 2px solid #d6d6d6;
+}
+/* line 33, ../sass/index.scss */
+body .container .header-container .name {
+  float: left;
+  width: 300px;
+  height: 70px;
+  font-size: 400%;
+  font-weight: bold;
+}
+/* line 41, ../sass/index.scss */
+body .container .nav-container {
+  margin-left: 300px;
+  overflow: hidden;
+  padding-top: 21px;
+  height: 49px;
+}
+/* line 46, ../sass/index.scss */
+body .container .nav-container .nav {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  font-size: 150%;
+}
+/* line 54, ../sass/index.scss */
+body .container .content-container {
+  width: auto;
+  position: relative;
+  margin: 10px;
+}
+/* line 58, ../sass/index.scss */
+body .container .content-container .event {
+  width: auto;
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+  border-bottom: 1px dotted #ccc;
+}
+/* line 64, ../sass/index.scss */
+body .container .content-container .event .event-title {
+  font-size: 150%;
+}
+/* line 69, ../sass/index.scss */
+body .container .content-container .event .event-detail .event-image {
+  float: left;
+  width: 50px;
+}
+/* line 72, ../sass/index.scss */
+body .container .content-container .event .event-detail .event-image img {
+  width: 50px;
+  height: 50px;
+}
+/* line 78, ../sass/index.scss */
+body .container .content-container .event .event-detail .event-description {
+  margin-left: 50px;
+  overflow: hidden;
+  padding: 10px;
+}
+/* line 87, ../sass/index.scss */
+body a {
+  color: inherit;
+  text-decoration: none;
+}
