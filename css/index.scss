@@ -1,11 +1,10 @@
-$main-width: 70%;
 $header-height: 70px;
 $header-left-width: 300px;
 $content-left-width: 300px;
 $name-font-size: 400%;
 $sidepanel-font-size: 200%;
 $nav-font-size: 150%;
-$project-image-size: 50px;
+$event-image-size: 50px;
 
 @mixin container-of-float-div() {
   width: auto;
@@ -24,89 +23,69 @@ $project-image-size: 50px;
 
 body {
   font-family: sans-serif;
-}
 
-.container {
-  width: $main-width;
-  min-width: 500px;
-  margin: auto;
-}
+  .container {
+    .header-container {
+      @include container-of-float-div();
+      height: $header-height;
+      border-bottom: 2px solid #d6d6d6;
 
-.header-container {
-  @include container-of-float-div();
-  margin: 10px;
-}
+      .name {
+        @include first-float-div($header-left-width);
+        height: $header-height;
+        font-size: $name-font-size;
+        font-weight: bold;
+      }
+    }
 
-.name {
-  @include first-float-div($header-left-width);
-  font-size: $name-font-size;
-  font-weight: bold;
-}
+    .nav-container {
+      @include remaining-float-div($header-left-width);
+      padding-top: $header-height * 0.3;
+      height: $header-height * 0.7;
 
-.nav-container {
-  @include remaining-float-div($header-left-width);
-  height: $header-height;
-}
+      .nav {
+        display: inline-block;
+        position: relative;
+        margin: 10px;
+        font-size: $nav-font-size;
+      }
+    }
 
-.nav {
-  display: inline-block;
-  position: relative;
-  margin: 10px;
-  font-size: $nav-font-size;
-}
+    .content-container {
+      @include container-of-float-div();
+      margin: 10px;
 
-.nav-indicator {
-  height: 20%;
-  background-color: gray;
-}
+      .event {
+        @include container-of-float-div();
+        width: 80%;
+        margin: 20px auto;
+        border-bottom: 1px dotted #ccc;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+        .event-title {
+          font-size: 150%;
+        }
 
-.content-container {
-  @include container-of-float-div();
-  margin: 10px;
-}
+        .event-detail {
+          .event-image {
+            @include first-float-div($event-image-size);
 
-.sidepanel {
-  @include first-float-div($content-left-width);
-  font-size: $sidepanel-font-size;
-}
+            img {
+              width: $event-image-size;
+              height: $event-image-size;
+            }
+          }
 
-.detail {
-  @include remaining-float-div($content-left-width);
-}
+          .event-description {
+            @include remaining-float-div($event-image-size);
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
 
-.project {
-  @include container-of-float-div();
-}
-
-.project-title {
-  font-size: 150%;
-}
-
-.project-image {
-  @include first-float-div($project-image-size);
-}
-
-.project-description {
-  @include remaining-float-div($project-image-size);
-  padding: 10px;
-}
-
-.project-image img {
-  width: $project-image-size;
-  height: $project-image-size;
-}
-
-.project-bar {
-  height: 10px;
-  background-color: gray;
-}
-
-body {
-  background-color: #fff;
-  background-image: linear-gradient(90deg, transparent 79%, #abced4 79%, #abced4 81%, transparent 81%);
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
