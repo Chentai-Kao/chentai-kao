@@ -1,11 +1,59 @@
-[
-  "Stanford University",
-  "Google",
-  "National Taiwan University",
-  "Synckr",
-  "Automatic Aesthetic Photo-rating System",
-  "Chrome OS Trace Viewer",
-  "Online Webfont Editor",
-  "Projector-Camera System",
-  "Quality Enhancement of Dimmed Images"
-]
+{
+  "about": {
+    "events": [
+      {
+        "title": "Stanford University",
+        "image": "/img/stanford.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      },
+      {
+        "title": "Google",
+        "image": "/img/google.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      },
+      {
+        "title": "JustFont",
+        "image": "/img/justfont.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      },
+      {
+        "title": "National Taiwan University",
+        "image": "/img/ntu.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "title": "Synckr",
+      "image": "/img/synckr.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      "title": "Automatic Aesthetic Photo-rating System",
+      "image": "/img/unknown.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      "title": "Chrome OS Trace Viewer",
+      "image": "/img/chromeos.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      "title": "Online Webfont Editor",
+      "image": "/img/justfont.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      "title": "Projector-Camera System",
+      "image": "/img/unknown.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      "title": "Quality Enhancement of Dimmed Images",
+      "image": "/img/unknown.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    }
+  ]
+}

@@ -67,16 +67,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 body {
   font-family: sans-serif;
 }
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 body .container .header-container {
   height: 70px;
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 body .container .header-container .header-content {
   width: auto;
   position: relative;
@@ -84,7 +84,7 @@ body .container .header-container .header-content {
   height: 70px;
   margin: 0 auto;
 }
-/* line 44, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 body .container .header-container .header-content .name {
   float: left;
   width: 300px;
@@ -92,14 +92,14 @@ body .container .header-container .header-content .name {
   font-size: 400%;
   font-weight: bold;
 }
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 body .container .header-container .nav-container {
   margin-left: 300px;
   overflow: hidden;
   padding-top: 21px;
   height: 49px;
 }
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 body .container .header-container .nav-container .nav {
   display: inline-block;
   position: relative;
@@ -107,43 +107,47 @@ body .container .header-container .nav-container .nav {
   font-size: 150%;
   font-weight: bolder;
 }
-/* line 67, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 body .container .content-container {
   width: auto;
   position: relative;
-  margin: 10px;
+  width: 600px;
+  margin: 0 auto;
 }
-/* line 71, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 body .container .content-container .event {
   width: auto;
   position: relative;
-  width: 80%;
   margin: 20px auto;
   border-bottom: 1px dotted #ccc;
 }
-/* line 77, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 body .container .content-container .event .event-title {
   font-size: 150%;
   font-weight: bolder;
 }
-/* line 83, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 body .container .content-container .event .event-detail .event-image {
   float: left;
   width: 50px;
 }
-/* line 86, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 body .container .content-container .event .event-detail .event-image img {
   width: 50px;
   height: 50px;
 }
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 body .container .content-container .event .event-detail .event-description {
   margin-left: 50px;
   overflow: hidden;
   padding: 10px;
 }
-/* line 101, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 body a {
   color: inherit;
   text-decoration: none;
+}
+/* line 107, ../sass/screen.scss */
+body .template {
+  display: none;
 }
