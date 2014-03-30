@@ -28,13 +28,17 @@ $content-width: 600px;
   overflow: hidden;
 }
 
+@mixin section() {
+  border-bottom: 2px solid #d6d6d6;
+}
+
 body {
   font-family: sans-serif;
 
   .container {
     .header-container {
       height: $header-height;
-      border-bottom: 2px solid #d6d6d6;
+      @include section();
 
       .header-content {
         @include container-of-float-div();
@@ -67,32 +71,36 @@ body {
 
     .content-container {
       @include container-of-float-div();
-      width: $content-width;
-      margin: 0 auto;
+      @include section();
 
-      .event {
-        @include container-of-float-div();
-        margin: 20px auto;
-        border-bottom: 1px dotted #ccc;
+      .content {
+        width: $content-width;
+        margin: 0 auto;
 
-        .event-title {
-          font-size: 150%;
-          font-weight: bolder;
-        }
+        .event {
+          @include container-of-float-div();
+          margin: 20px auto 0px auto;
+          border-bottom: 1px dotted #ccc;
 
-        .event-detail {
-          .event-image {
-            @include first-float-div($event-image-size);
-
-            img {
-              width: $event-image-size;
-              height: $event-image-size;
-            }
+          .event-title {
+            font-size: 150%;
+            font-weight: bolder;
           }
 
-          .event-description {
-            @include remaining-float-div($event-image-size);
-            padding: 10px;
+          .event-detail {
+            .event-image {
+              @include first-float-div($event-image-size);
+
+              img {
+                width: $event-image-size;
+                height: $event-image-size;
+              }
+            }
+
+            .event-description {
+              @include remaining-float-div($event-image-size);
+              padding: 10px;
+            }
           }
         }
       }
@@ -104,7 +112,7 @@ body {
     text-decoration: none;
   }
 
-  .template {
+  .invisible {
     display: none;
   }
 }
