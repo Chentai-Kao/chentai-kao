@@ -4,9 +4,10 @@ $(function() {
   function navScroller() {
     $(".nav a").click(function(e) {
       e.preventDefault();
-      $("html, body").animate({
-        scrollTop: $($(this).attr("href")).offset().top
-      }, 300);
+      var targetSelector = $(this).attr("href");
+      var offset = parseInt($(targetSelector).offset().top);
+      var headerHeight = parseInt($(".header-container").height());
+      $("html, body").animate({ scrollTop: offset - headerHeight }, 300);
     });
   }
 

@@ -37,8 +37,12 @@ body {
 
   .container {
     .header-container {
+      width: 100%;
       height: $header-height;
       @include section();
+      position: fixed;
+      z-index: 999;
+      background-color: rgba(white, 0.7);
 
       .header-content {
         @include container-of-float-div();
@@ -72,6 +76,7 @@ body {
     .content-container {
       @include container-of-float-div();
       @include section();
+      padding-top: $header-height;
 
       .content {
         width: $content-width;
