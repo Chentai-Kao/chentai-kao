@@ -39,7 +39,6 @@ $content-width: 600px;
 
 body {
   font-family: sans-serif;
-  color: #222;
 
   .container {
     .header-container {
@@ -48,6 +47,7 @@ body {
       position: fixed;
       z-index: 999;
       background-color: rgba(white, 1);
+      color: #222;
 
       .header-content {
         @include container-of-float-div();
@@ -102,6 +102,7 @@ body {
           .event-title {
             font-size: 150%;
             font-weight: bolder;
+            color: #555;
           }
 
           .event-time {
@@ -111,6 +112,7 @@ body {
 
           .event-detail {
             margin-top: 10px;
+            min-height: $event-image-size;
 
             .event-image {
               @include first-float-div($event-image-size);
@@ -125,6 +127,14 @@ body {
               @include remaining-float-div($event-image-size);
               padding: 0px 10px;
               color: #666;
+
+              a {
+                color: #11f;
+              }
+
+              a.over {
+                color: #77f;
+              }
             }
           }
         }

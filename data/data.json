@@ -3,27 +3,27 @@
     "events": [
       {
         "title": "Stanford University",
-        "time": "Sep. 2013 - Jun. 2015",
+        "time": "Sep. 2013 - Jun. 2015 (expected)",
         "image": "/img/stanford.png",
         "description": "A master student in computer science, I focus on artificial intelligence and human-computer interaction. In Winter 2013, I was teaching assistent of CS 231A, \"Computer Vision: from 3D reconstruction to recognition\"."
       },
       {
         "title": "Google",
-        "time": "",
+        "time": "Jul. 2013 - Aug. 2013",
         "image": "/img/google.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+        "description": "As a software engineer intern at Google Taipei, I worked on Chrome OS project and visualized kernel function calls of its graphics driver."
       },
       {
         "title": "JustFont",
-        "time": "",
+        "time": "Jul. 2012 - Jun. 2013",
         "image": "/img/justfont.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+        "description": "I joined JustFont, a leading startup providing Chinese webfont, as a software engineer intern. I was responsible for developing an online webfont editor and maintaining JustFont's website."
       },
       {
         "title": "National Taiwan University",
-        "time": "",
+        "time": "Sep. 2008 - Jun. 2012",
         "image": "/img/ntu.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+        "description": "Majoring in electrical engineering, I explored extensively in fields spanning from hardware to software. Some examples included solar cells, semiconductors, microcontroller, bio-engineering, and image processing."
       }
     ]
   },
@@ -31,9 +31,11 @@
   "projects": [
     {
       "title": "SNAP",
-      "time": "",
+      "time": "Jan. 2014 - Mar. 2014",
       "image": "/img/snap.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "description": "Joining the Stanford Network Analysis Project (SNAP) team, I implemented the <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\">RolX</a> algorithm.",
+      "teammates": "Tai Guo",
+      "skills": "C++, Python"
     },
     {
       "title": "Synckr",

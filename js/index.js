@@ -9,16 +9,20 @@ $(function() {
           var e = array[i];
           var t = template.clone().removeClass("invisible")
                           .addClass("event-bar");
-          t.find(".event-title").text(e.title);
-          t.find(".event-time").text(e.time);
+          t.find(".event-title").html(e.title);
+          t.find(".event-time").html(e.time);
           t.find(".event-image").append($("<img>", { src: e.image }));
-          t.find(".event-description").text(e.description);
+          t.find(".event-description").html(e.description);
           $(targetSelector).append(t);
         }
         $(targetSelector + "> div:last-child").removeClass("event-bar");
       }
       fillEachEvent(data.about.events, "#content-about");
       fillEachEvent(data.projects, "#content-projects");
+      // other callbackes
+      navScroller();
+      scrollSpy();
+      linkHighlight();
     });
   }
 
@@ -33,7 +37,15 @@ $(function() {
     });
   }
 
-  // Highlight navigation bar based on scroll position
+  // hlghlight link when mouse over
+  function linkHighlight() {
+    $(".event-description a").hover(
+      function() { $(this).addClass("over"); },
+      function() { $(this).removeClass("over"); }
+    );
+  }
+
+  // highlight navigation bar based on scroll position
   function scrollSpy() {
     $(document).scroll(function(e) {
       // find ID of the target div
@@ -63,7 +75,5 @@ $(function() {
 
   // main function
   fillData();
-  navScroller();
-  scrollSpy();
 
 });

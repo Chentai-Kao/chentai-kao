@@ -70,15 +70,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 40, ../sass/screen.scss */
 body {
   font-family: sans-serif;
-  color: #222;
 }
-/* line 45, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 body .container .header-container {
   width: 100%;
   height: 70px;
   position: fixed;
   z-index: 999;
   background-color: white;
+  color: #222;
 }
 /* line 52, ../sass/screen.scss */
 body .container .header-container .header-content {
@@ -147,46 +147,56 @@ body .container .content-container .content .event {
 body .container .content-container .content .event .event-title {
   font-size: 150%;
   font-weight: bolder;
+  color: #555;
 }
-/* line 107, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 body .container .content-container .content .event .event-time {
   color: #aaa;
   margin-left: 10px;
 }
-/* line 112, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail {
   margin-top: 10px;
+  min-height: 50px;
 }
-/* line 115, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-image {
   float: left;
   width: 50px;
 }
-/* line 118, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-image img {
   width: 50px;
   height: 50px;
 }
-/* line 124, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description {
   margin-left: 50px;
   overflow: hidden;
   padding: 0px 10px;
   color: #666;
 }
+/* line 131, ../sass/screen.scss */
+body .container .content-container .content .event .event-detail .event-description a {
+  color: #11f;
+}
 /* line 135, ../sass/screen.scss */
+body .container .content-container .content .event .event-detail .event-description a.over {
+  color: #77f;
+}
+/* line 145, ../sass/screen.scss */
 body a {
   text-decoration: none;
 }
-/* line 139, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 body .invisible {
   display: none;
 }
-/* line 143, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 body .section {
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 147, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 body .event-bar {
   border-bottom: 1px dotted #ccc;
 }
