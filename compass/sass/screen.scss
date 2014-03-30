@@ -39,6 +39,7 @@ $content-width: 600px;
 
 body {
   font-family: sans-serif;
+  color: #222;
 
   .container {
     .header-container {
@@ -75,11 +76,11 @@ body {
           font-weight: bolder;
 
           a {
-            color: #d6d6d6;
+            color: #aaa;
           }
 
           a.highlight {
-            color: black;
+            color: #555;
           }
         }
       }
@@ -118,6 +119,7 @@ body {
             .event-description {
               @include remaining-float-div($event-image-size);
               padding: 0px 10px;
+              color: #666;
             }
           }
         }
