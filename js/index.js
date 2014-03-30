@@ -1,5 +1,15 @@
 $(function() {
 
+  // animate scrolling of navigation bar
+  function navScroller() {
+    $(".nav a").click(function(e) {
+      e.preventDefault();
+      $("html, body").animate({
+        scrollTop: $($(this).attr("href")).offset().top
+      }, 300);
+    });
+  }
+
   // get data from server
   function fillData() {
     $.getJSON("/data/data.json", function(data) {
@@ -19,16 +29,8 @@ $(function() {
     });
   }
 
-  // event handler of navigation bar
-  function navHandler() {
-    $("#nav-about").click(function(e) {
-    });
-    $("#nav-projects").click(function(e) {
-    });
-  }
-
   // main function
   fillData();
-  navHandler();
+  navScroller();
 
 });

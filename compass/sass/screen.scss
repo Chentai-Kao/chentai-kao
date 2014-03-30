@@ -79,7 +79,7 @@ body {
 
         .event {
           @include container-of-float-div();
-          margin: 20px auto 0px auto;
+          padding: 20px 0px;
           border-bottom: 1px dotted #ccc;
 
           .event-title {
@@ -88,6 +88,8 @@ body {
           }
 
           .event-detail {
+            margin-top: 10px;
+
             .event-image {
               @include first-float-div($event-image-size);
 
@@ -99,7 +101,7 @@ body {
 
             .event-description {
               @include remaining-float-div($event-image-size);
-              padding: 10px;
+              padding: 0px 10px;
             }
           }
         }
