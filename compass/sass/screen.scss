@@ -12,6 +12,12 @@ $name-font-size: 400%;
 $nav-font-size: 150%;
 $event-image-size: 50px;
 $content-width: 600px;
+$color-name: #222;
+$color-section: #d6d6d6;
+$color-light: #aaa;
+$color-dark: #555;
+$color-link: #55f;
+$color-link-over: $color-light;
 
 @mixin container-of-float-div() {
   width: auto;
@@ -47,7 +53,6 @@ body {
       position: fixed;
       z-index: 999;
       background-color: rgba(white, 1);
-      color: #222;
 
       .header-content {
         @include container-of-float-div();
@@ -76,11 +81,11 @@ body {
           font-weight: bolder;
 
           a {
-            color: #aaa;
+            color: $color-light;
           }
 
           a.highlight {
-            color: #555;
+            color: $color-dark;
           }
         }
       }
@@ -102,16 +107,11 @@ body {
           .event-title {
             font-size: 150%;
             font-weight: bolder;
-            color: #555;
+            color: $color-dark;
           }
 
           .event-time {
-            color: #aaa;
-            margin-left: 10px;
-          }
-
-          .event-time {
-            color: #666;
+            color: $color-light;
             margin-left: 10px;
           }
 
@@ -130,15 +130,24 @@ body {
 
             .event-description {
               @include remaining-float-div($event-image-size);
-              padding: 0px 10px;
-              color: #666;
+              padding-left: 10px;
+
+              .event-brief {
+                color: $color-dark;
+              }
+
+              .event-team {
+                color: $color-light;
+                margin-top: 5px;
+              }
 
               a {
-                color: #11f;
+                color: $color-link;
+                font-weight: bolder;
               }
 
               a.over {
-                color: #77f;
+                color: $color-link-over;
               }
             }
           }
@@ -156,10 +165,10 @@ body {
   }
 
   .section {
-    border-bottom: 2px solid #d6d6d6;
+    border-bottom: 2px solid $color-section;
   }
 
   .event-bar {
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted $color-light;
   }
 }

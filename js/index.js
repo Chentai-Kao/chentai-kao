@@ -12,7 +12,10 @@ $(function() {
           t.find(".event-title").html(e.title);
           t.find(".event-time").html(e.time);
           t.find(".event-image").append($("<img>", { src: e.image }));
-          t.find(".event-description").html(e.description);
+          t.find(".event-brief").html(e.description);
+          if (typeof e.team !== "undefined") {
+            t.find(".event-team").html("Team: " + e.team);
+          }
           $(targetSelector).append(t);
         }
         $(targetSelector + "> div:last-child").removeClass("event-bar");

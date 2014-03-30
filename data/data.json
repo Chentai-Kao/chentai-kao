@@ -5,7 +5,7 @@
         "title": "Stanford University",
         "time": "Sep. 2013 - Jun. 2015 (expected)",
         "image": "/img/stanford.png",
-        "description": "A master student in computer science, I focus on artificial intelligence and human-computer interaction. In Winter 2013, I was teaching assistent of CS 231A, \"Computer Vision: from 3D reconstruction to recognition\"."
+        "description": "A master student in computer science, I focus on artificial intelligence and human-computer interaction. In Winter 2013, I TA-ed CS 231A, \"Computer Vision: from 3D reconstruction to recognition\"."
       },
       {
         "title": "Google",
@@ -17,7 +17,7 @@
         "title": "JustFont",
         "time": "Jul. 2012 - Jun. 2013",
         "image": "/img/justfont.png",
-        "description": "I joined JustFont, a leading startup providing Chinese webfont, as a software engineer intern. I was responsible for developing an online webfont editor and maintaining JustFont's website."
+        "description": "I joined <a href=\"http://www.justfont.com\">JustFont</a>, a leading startup providing Chinese webfont service, as a software engineer intern. I was responsible for developing an online webfont editor and maintaining JustFont's website."
       },
       {
         "title": "National Taiwan University",
@@ -33,9 +33,8 @@
       "title": "SNAP",
       "time": "Jan. 2014 - Mar. 2014",
       "image": "/img/snap.png",
-      "description": "Joining the Stanford Network Analysis Project (SNAP) team, I implemented the <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\">RolX</a> algorithm.",
-      "teammates": "Tai Guo",
-      "skills": "C++, Python"
+      "description": "Joining the Stanford Network Analysis Project (SNAP) team led by <a href=\"http://cs.stanford.edu/people/jure/\">Jure</a>, I helped extend the SNAP library by implementing <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\">RolX</a>, an algorithm able to extract roles of nodes in a large network.",
+      "team": "Tai Guo"
     },
     {
       "title": "Synckr",
