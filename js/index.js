@@ -7,15 +7,14 @@ $(function() {
       function fillEachEvent(array, targetSelector) {
         for (var i = 0; i < array.length; ++i) {
           var e = array[i];
-          var t = template.clone().removeClass("invisible");
-          if (i !== array.length - 1) {
-            t.addClass("event-bar");
-          }
+          var t = template.clone().removeClass("invisible")
+                          .addClass("event-bar");
           t.find(".event-title").text(e.title);
           t.find(".event-image").append($("<img>", { src: e.image }));
           t.find(".event-description").text(e.description);
           $(targetSelector).append(t);
         }
+        $(targetSelector + "> div:last-child").removeClass("event-bar");
       }
       fillEachEvent(data.about.events, "#content-about");
       fillEachEvent(data.projects, "#content-projects");

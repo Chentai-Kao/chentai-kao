@@ -28,6 +28,15 @@ $content-width: 600px;
   overflow: hidden;
 }
 
+@mixin yield-to-header {
+  .content-container {
+    padding-top: $header-height;
+  }
+  .content-container ~ .content-container {
+    padding-top: 0px;
+  }
+}
+
 body {
   font-family: sans-serif;
 
@@ -37,7 +46,7 @@ body {
       height: $header-height;
       position: fixed;
       z-index: 999;
-      background-color: rgba(white, 0.7);
+      background-color: rgba(white, 1);
 
       .header-content {
         @include container-of-float-div();
@@ -76,9 +85,10 @@ body {
       }
     }
 
+    @include yield-to-header;
+
     .content-container {
       @include container-of-float-div();
-      padding-top: $header-height;
 
       .content {
         width: $content-width;
