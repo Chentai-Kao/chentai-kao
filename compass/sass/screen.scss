@@ -28,10 +28,6 @@ $content-width: 600px;
   overflow: hidden;
 }
 
-@mixin section() {
-  border-bottom: 2px solid #d6d6d6;
-}
-
 body {
   font-family: sans-serif;
 
@@ -39,7 +35,6 @@ body {
     .header-container {
       width: 100%;
       height: $header-height;
-      @include section();
       position: fixed;
       z-index: 999;
       background-color: rgba(white, 0.7);
@@ -75,7 +70,6 @@ body {
 
     .content-container {
       @include container-of-float-div();
-      @include section();
       padding-top: $header-height;
 
       .content {
@@ -85,7 +79,6 @@ body {
         .event {
           @include container-of-float-div();
           padding: 20px 0px;
-          border-bottom: 1px dotted #ccc;
 
           .event-title {
             font-size: 150%;
@@ -121,5 +114,13 @@ body {
 
   .invisible {
     display: none;
+  }
+
+  .section {
+    border-bottom: 2px solid #d6d6d6;
+  }
+
+  .event-bar {
+    border-bottom: 1px dotted #ccc;
   }
 }

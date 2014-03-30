@@ -19,6 +19,9 @@ $(function() {
         for (var i = 0; i < array.length; ++i) {
           var e = array[i];
           var t = template.clone().removeClass("invisible");
+          if (i !== array.length - 1) {
+            t.addClass("event-bar");
+          }
           t.find(".event-title").text(e.title);
           t.find(".event-image").append($("<img>", { src: e.image }));
           t.find(".event-description").text(e.description);

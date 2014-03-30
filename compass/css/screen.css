@@ -67,20 +67,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 body {
   font-family: sans-serif;
 }
-/* line 39, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 body .container .header-container {
   width: 100%;
   height: 70px;
-  border-bottom: 2px solid #d6d6d6;
   position: fixed;
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.7);
 }
-/* line 47, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 body .container .header-container .header-content {
   width: auto;
   position: relative;
@@ -88,7 +87,7 @@ body .container .header-container .header-content {
   height: 70px;
   margin: 0 auto;
 }
-/* line 53, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 body .container .header-container .header-content .name {
   float: left;
   width: 300px;
@@ -96,14 +95,14 @@ body .container .header-container .header-content .name {
   font-size: 400%;
   font-weight: bold;
 }
-/* line 61, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 body .container .header-container .nav-container {
   margin-left: 300px;
   overflow: hidden;
   padding-top: 21px;
   height: 49px;
 }
-/* line 66, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 body .container .header-container .nav-container .nav {
   display: inline-block;
   position: relative;
@@ -111,56 +110,62 @@ body .container .header-container .nav-container .nav {
   font-size: 150%;
   font-weight: bolder;
 }
-/* line 76, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 body .container .content-container {
   width: auto;
   position: relative;
-  border-bottom: 2px solid #d6d6d6;
   padding-top: 70px;
 }
-/* line 81, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 body .container .content-container .content {
   width: 600px;
   margin: 0 auto;
 }
-/* line 85, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 body .container .content-container .content .event {
   width: auto;
   position: relative;
   padding: 20px 0px;
-  border-bottom: 1px dotted #ccc;
 }
-/* line 90, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 body .container .content-container .content .event .event-title {
   font-size: 150%;
   font-weight: bolder;
 }
-/* line 95, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail {
   margin-top: 10px;
 }
-/* line 98, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-image {
   float: left;
   width: 50px;
 }
-/* line 101, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-image img {
   width: 50px;
   height: 50px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description {
   margin-left: 50px;
   overflow: hidden;
   padding: 0px 10px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 body a {
   color: inherit;
   text-decoration: none;
 }
-/* line 122, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 body .invisible {
   display: none;
+}
+/* line 119, ../sass/screen.scss */
+body .section {
+  border-bottom: 2px solid #d6d6d6;
+}
+/* line 123, ../sass/screen.scss */
+body .event-bar {
+  border-bottom: 1px dotted #ccc;
 }
