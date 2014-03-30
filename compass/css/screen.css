@@ -178,33 +178,40 @@ body .container .content-container .content .event .event-detail .event-descript
 body .container .content-container .content .event .event-detail .event-description .event-brief {
   color: #555555;
 }
-/* line 139, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
+body .container .content-container .content .event .event-detail .event-description .event-brief a {
+  color: #555555;
+}
+/* line 143, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description .event-team {
   color: #aaaaaa;
   margin-top: 5px;
 }
-/* line 144, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
+body .container .content-container .content .event .event-detail .event-description .event-team a {
+  color: #aaaaaa;
+}
+/* line 152, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description a {
-  color: #5555ff;
   font-weight: bolder;
 }
-/* line 149, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description a.over {
   color: #aaaaaa;
 }
-/* line 159, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 body a {
   text-decoration: none;
 }
-/* line 163, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 body .invisible {
   display: none;
 }
-/* line 167, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 body .section {
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 171, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 body .event-bar {
   border-bottom: 1px dotted #aaaaaa;
 }

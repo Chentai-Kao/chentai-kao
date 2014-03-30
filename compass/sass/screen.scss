@@ -134,15 +134,22 @@ body {
 
               .event-brief {
                 color: $color-dark;
+
+                a {
+                  color: $color-dark;
+                }
               }
 
               .event-team {
                 color: $color-light;
                 margin-top: 5px;
+
+                a {
+                  color: $color-light;
+                }
               }
 
               a {
-                color: $color-link;
                 font-weight: bolder;
               }
 

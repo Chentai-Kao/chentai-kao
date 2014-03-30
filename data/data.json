@@ -5,7 +5,7 @@
         "title": "Stanford University",
         "time": "Sep. 2013 - Jun. 2015 (expected)",
         "image": "/img/stanford.png",
-        "description": "A master student in computer science, I focus on artificial intelligence and human-computer interaction. In Winter 2013, I TA-ed CS 231A, \"Computer Vision: from 3D reconstruction to recognition\"."
+        "description": "A master student in computer science, I focused on artificial intelligence and human-computer interaction. In Winter 2013, I TA-ed <a href=\"http://cvgl.stanford.edu/teaching/cs231a_winter1314\">CS 231A</a>, \"Computer Vision: from 3D reconstruction to recognition\"."
       },
       {
         "title": "Google",
@@ -33,20 +33,22 @@
       "title": "SNAP",
       "time": "Jan. 2014 - Mar. 2014",
       "image": "/img/snap.png",
-      "description": "Joining the Stanford Network Analysis Project (SNAP) team led by <a href=\"http://cs.stanford.edu/people/jure/\">Jure</a>, I helped extend the SNAP library by implementing <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\">RolX</a>, an algorithm able to extract roles of nodes in a large network.",
+      "description": "Joining the Stanford Network Analysis Project (SNAP) team led by <a href=\"http://cs.stanford.edu/people/jure/\">Jure</a>, I did research on SNAP by implementing <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\">RolX</a>, an algorithm able to extract roles of nodes in a large network, with Python and C++.",
       "team": "Tai Guo"
     },
     {
       "title": "Synckr",
-      "time": "",
+      "time": "Jan. 2014 - Mar. 2014",
       "image": "/img/synckr.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "description": "With intuitive interface and integration of Google calendar, <a href=\"http://synckr.com\">Synckr</a> makes event scheduling easier than ever. I was responsible for backend development with Node.js and MongoDB.",
+      "team": "<a href=\"http://andrew-liu.info\">Andrew Liu</a>, Jocelin Ho"
     },
     {
       "title": "Automatic Aesthetic Photo-rating System",
-      "time": "",
+      "time": "Sep. 2013 - Jan. 2014",
       "image": "/img/unknown.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "description": "Combining machine learning and computer vision, we built a system that discerns good photo from bad ones with accuracy as high as 82%. My responsibility was generating aesthetic features from various photographic principles with OpenCV and C++.",
+      "team": "<a href=\"http://andrew-liu.info\">Andrew Liu</a>, Claire Wu"
     },
     {
       "title": "Chrome OS Trace Viewer",
