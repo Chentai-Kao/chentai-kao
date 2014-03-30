@@ -10,6 +10,7 @@ $(function() {
           var t = template.clone().removeClass("invisible")
                           .addClass("event-bar");
           t.find(".event-title").text(e.title);
+          t.find(".event-time").text(e.time);
           t.find(".event-image").append($("<img>", { src: e.image }));
           t.find(".event-description").text(e.description);
           $(targetSelector).append(t);

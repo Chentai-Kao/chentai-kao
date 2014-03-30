@@ -3,21 +3,25 @@
     "events": [
       {
         "title": "Stanford University",
+        "time": "Sep. 2013 - Jun. 2015",
         "image": "/img/stanford.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+        "description": "A master student in computer science, I focus on artificial intelligence and human-computer interaction. In Winter 2013, I was teaching assistent of CS 231A, \"Computer Vision: from 3D reconstruction to recognition\"."
       },
       {
         "title": "Google",
+        "time": "",
         "image": "/img/google.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
       },
       {
         "title": "JustFont",
+        "time": "",
         "image": "/img/justfont.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
       },
       {
         "title": "National Taiwan University",
+        "time": "",
         "image": "/img/ntu.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
       }
@@ -26,32 +30,44 @@
 
   "projects": [
     {
+      "title": "SNAP",
+      "time": "",
+      "image": "/img/snap.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
       "title": "Synckr",
+      "time": "",
       "image": "/img/synckr.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
       "title": "Automatic Aesthetic Photo-rating System",
+      "time": "",
       "image": "/img/unknown.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
       "title": "Chrome OS Trace Viewer",
+      "time": "",
       "image": "/img/chromeos.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
       "title": "Online Webfont Editor",
+      "time": "",
       "image": "/img/justfont.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
       "title": "Projector-Camera System",
+      "time": "",
       "image": "/img/unknown.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
       "title": "Quality Enhancement of Dimmed Images",
+      "time": "",
       "image": "/img/unknown.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
     }
