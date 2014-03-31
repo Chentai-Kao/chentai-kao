@@ -46,21 +46,27 @@
     {
       "title": "Automatic Aesthetic Photo-rating System",
       "time": "Sep. 2013 - Jan. 2014",
-      "image": "/img/unknown.png",
-      "description": "Combining machine learning and computer vision, we built a system that discerns good photo from bad ones with accuracy as high as 82%. My responsibility was generating aesthetic features from various photographic principles with OpenCV and C++.",
+      "image": "/img/aaps.png",
+      "description": "To help photographers taking pictures, we built a system that rates the aesthetic of photos with accuracy as high as 82%, utilizing computer vision and machine learning techniques. My responsibility was generating aesthetic features from various photographic principles with OpenCV and C++.",
       "team": "<a href=\"http://andrew-liu.info\">Andrew Liu</a>, Claire Wu"
     },
     {
-      "title": "Chrome OS Trace Viewer",
-      "time": "",
+      "title": "Graphics Driver Evaluation of Chrome OS",
+      "time": "Jul. 2013 - Aug. 2013",
       "image": "/img/chromeos.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "description": "In this intern project at Google, I worked on visualizing kernel function calls and performance evaluation of graphics driver. Using C in Linux kernel, Python for automated test, Javascript for visualization, and BASH script to enable system tracing, I contributed 4 change lists to the Chrome OS codebase."
     },
     {
       "title": "Online Webfont Editor",
-      "time": "",
+      "time": "Jul. 2012 - Jun. 2013",
       "image": "/img/justfont.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "description": "Webfont is a technology that displays font on websites without client side installing that font beforehand. To help web designer applying webfont on their websites, I developed from scratch an online WYSIWYG webfont editor, written in PHP and Javascript."
+    },
+    {
+      "title": "IPC2581 to Gerber Converter",
+      "time": "Mar. 2013 - May. 2013",
+      "image": "/img/unknown.png",
+      "description": "IPC2581 is a newly-introduced format of Printed Circuit Board (PCB) files. I developed this program to convert IPC2581 to Gerber, a more widely-used format of PCB files."
     },
     {
       "title": "Projector-Camera System",
