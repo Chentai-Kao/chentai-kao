@@ -5,7 +5,7 @@
 
 @import "compass/reset";
 
-$header-height: 70px;
+$header-height: 100px;
 $header-left-width: 300px;
 $content-left-width: 300px;
 $name-font-size: 400%;
@@ -42,21 +42,20 @@ body {
 
       .header-content {
         width: $content-width;
-        height: $header-height;
         margin: 0 auto;
+        padding-top: 30px;
 
         .name {
           display: inline-block;
-          height: $header-height;
           font-size: $name-font-size;
           font-weight: bold;
+          vertical-align: bottom;
         }
 
         .nav-container {
           display: inline-block;
-          padding-top: $header-height * 0.3;
           margin-left: 20px;
-          height: $header-height * 0.7;
+          vertical-align: bottom;
 
           .nav {
             display: inline-block;
