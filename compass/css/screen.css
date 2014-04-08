@@ -183,12 +183,12 @@ body .container .content-container .content .event .event-detail .event-descript
   color: #555555;
 }
 /* line 143, ../sass/screen.scss */
-body .container .content-container .content .event .event-detail .event-description .event-team {
+body .container .content-container .content .event .event-detail .event-description .event-team, body .container .content-container .content .event .event-detail .event-description .event-paper {
   color: #aaaaaa;
   margin-top: 5px;
 }
 /* line 147, ../sass/screen.scss */
-body .container .content-container .content .event .event-detail .event-description .event-team a {
+body .container .content-container .content .event .event-detail .event-description .event-team a, body .container .content-container .content .event .event-detail .event-description .event-paper a {
   color: #aaaaaa;
 }
 /* line 152, ../sass/screen.scss */

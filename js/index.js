@@ -16,6 +16,9 @@ $(function() {
           if (typeof e.team !== "undefined") {
             t.find(".event-team").html("Team: " + e.team);
           }
+          if (typeof e.paper !== "undefined") {
+            t.find(".event-paper").html("Paper: " + e.paper);
+          }
           $(targetSelector).append(t);
         }
         $(targetSelector + "> div:last-child").removeClass("event-bar");
