@@ -20,21 +20,6 @@ $color-dark: #555;
 $color-link: #55f;
 $color-link-over: $color-light;
 
-@mixin container-of-float-div() {
-  width: auto;
-  position: relative;
-}
-
-@mixin first-float-div($width) {
-  float: left;
-  width: $width;
-}
-
-@mixin remaining-float-div($left-margin) {
-  margin-left: $left-margin;
-  overflow: hidden;
-}
-
 @mixin yield-to-header {
   .content-container {
     padding-top: $header-height;
@@ -56,42 +41,42 @@ body {
       background-color: rgba(white, 1);
 
       .header-content {
-        @include container-of-float-div();
         width: $content-width;
         height: $header-height;
         margin: 0 auto;
 
         .name {
-          @include first-float-div($header-left-width);
+          display: inline-block;
           height: $header-height;
           font-size: $name-font-size;
           font-weight: bold;
         }
-      }
 
-      .nav-container {
-        @include remaining-float-div($header-left-width);
-        padding-top: $header-height * 0.3;
-        height: $header-height * 0.7;
-
-        .nav {
+        .nav-container {
           display: inline-block;
-          position: relative;
-          margin: $nav-margin;
-          font-size: $nav-font-size;
-          font-weight: bolder;
+          padding-top: $header-height * 0.3;
+          margin-left: 20px;
+          height: $header-height * 0.7;
 
-          a {
-            color: $color-light;
+          .nav {
+            display: inline-block;
+            position: relative;
+            margin: $nav-margin;
+            font-size: $nav-font-size;
+            font-weight: bolder;
+
+            a {
+              color: $color-light;
+            }
+
+            a.highlight {
+              color: $color-dark;
+            }
           }
 
-          a.highlight {
-            color: $color-dark;
+          #mail-icon {
+            margin: $nav-margin;
           }
-        }
-
-        #mail-icon {
-          margin: $nav-margin;
         }
       }
     }
@@ -99,14 +84,11 @@ body {
     @include yield-to-header;
 
     .content-container {
-      @include container-of-float-div();
-
       .content {
         width: $content-width;
         margin: 0 auto;
 
         .event {
-          @include container-of-float-div();
           padding: 20px 0px;
 
           .event-title {
@@ -122,10 +104,10 @@ body {
 
           .event-detail {
             margin-top: 10px;
-            min-height: $event-image-size;
 
             .event-image {
-              @include first-float-div($event-image-size);
+              display: inline-block;
+              vertical-align: top;
 
               img {
                 width: $event-image-size;
@@ -134,8 +116,10 @@ body {
             }
 
             .event-description {
-              @include remaining-float-div($event-image-size);
-              padding-left: 10px;
+              display: inline-block;
+              vertical-align: top;
+              width: $content-width - $event-image-size - 10px;
+              margin-left: 5px;
 
               .event-brief {
                 color: $color-dark;
