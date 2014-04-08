@@ -176,12 +176,12 @@ body .container .content-container .content .event .event-detail .event-descript
   color: #555555;
 }
 /* line 131, ../sass/screen.scss */
-body .container .content-container .content .event .event-detail .event-description .event-team, body .container .content-container .content .event .event-detail .event-description .event-paper {
+body .container .content-container .content .event .event-detail .event-description .event-team, body .container .content-container .content .event .event-detail .event-description .event-paper, body .container .content-container .content .event .event-detail .event-description .event-code {
   color: #aaaaaa;
   margin-top: 5px;
 }
 /* line 135, ../sass/screen.scss */
-body .container .content-container .content .event .event-detail .event-description .event-team a, body .container .content-container .content .event .event-detail .event-description .event-paper a {
+body .container .content-container .content .event .event-detail .event-description .event-team a, body .container .content-container .content .event .event-detail .event-description .event-paper a, body .container .content-container .content .event .event-detail .event-description .event-code a {
   color: #aaaaaa;
 }
 /* line 140, ../sass/screen.scss */

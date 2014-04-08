@@ -30,25 +30,28 @@
 
   "projects": [
     {
-      "title": "SNAP",
+      "title": "RolX on SNAP",
       "time": "Jan. 2014 - Mar. 2014",
       "image": "/img/snap.png",
       "description": "Joining the Stanford Network Analysis Project (SNAP) team led by <a href=\"http://cs.stanford.edu/people/jure/\" target=\"_blank\">Jure</a>, I did research on SNAP by implementing <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\" target=\"_blank\">RolX</a>, an algorithm able to extract roles of nodes in a large network, with Python and C++.",
-      "team": "Tai Guo"
+      "team": "Tai Guo",
+      "code": "<a href=\"https://github.com/Cobra-Kao/rolx\" target=\"_blank\">Github</a>"
     },
     {
       "title": "Synckr",
       "time": "Jan. 2014 - Mar. 2014",
       "image": "/img/synckr.png",
       "description": "With intuitive interface and integration of Google calendar, <a href=\"http://synckr.com\" target=\"_blank\">Synckr</a> makes event scheduling easier than ever. I was responsible for backend development with Node.js and MongoDB.",
-      "team": "<a href=\"http://andrew-liu.info\" target=\"_blank\">Andrew Liu</a>, Jocelin Ho"
+      "team": "<a href=\"http://andrew-liu.info\" target=\"_blank\">Andrew Liu</a>, Jocelin Ho",
+      "code": "<a href=\"https://github.com/Cobra-Kao/synckr\" target=\"_blank\">Github</a>"
     },
     {
       "title": "Automatic Aesthetic Photo-rating System",
       "time": "Sep. 2013 - Jan. 2014",
       "image": "/img/aaps.png",
       "description": "To help photographers taking pictures, we built a system that rates the aesthetic of photos with accuracy as high as 82%, utilizing computer vision and machine learning techniques. My responsibility was generating aesthetic features from various photographic principles with OpenCV and C++.",
-      "team": "<a href=\"http://andrew-liu.info\" target=\"_blank\">Andrew Liu</a>, Claire Wu"
+      "team": "<a href=\"http://andrew-liu.info\" target=\"_blank\">Andrew Liu</a>, Claire Wu",
+      "code": "<a href=\"https://bitbucket.org/eggegg/ml-project\" target=\"_blank\">Bitbucket</a>"
     },
     {
       "title": "Graphics Driver Evaluation of Chrome OS",
@@ -72,10 +75,11 @@
       "title": "IPC2581 to Gerber Converter",
       "time": "Mar. 2013 - May. 2013",
       "image": "/img/ipc2581.png",
-      "description": "IPC2581 is a newly-introduced format of Printed Circuit Board (PCB) files. I developed this program in C++ that converts IPC2581 to Gerber, a more widely-used format of PCB files."
+      "description": "IPC2581 is a newly-introduced format of Printed Circuit Board (PCB) files. I developed this program in C++ that converts IPC2581 to Gerber, a more widely-used format of PCB files.",
+      "code": "<a href=\"https://github.com/Cobra-Kao/ipc2581_to_odb\" target=\"_blank\">Github</a>"
     },
     {
-      "title": "Radiometric Compensation on Procam System",
+      "title": "Radiometric Compensation on a Procam System",
       "time": "Jul. 2011 - Feb. 2013",
       "image": "/img/procams.png",
       "description": "We developed a radiometric compensation framework on a projector-camera (procam) system, whose projection was perceived undistorted on colored projection surface. The system, written in Matlab and C++, included a webcam for capturing, a laptop for computation, and a projector to project the corrected image.",
