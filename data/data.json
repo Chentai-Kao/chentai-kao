@@ -57,28 +57,36 @@
       "description": "In this intern project at Google, I worked on visualizing kernel function calls and performance evaluation of graphics driver. Using C in Linux kernel, Python for automated test, Javascript for visualization, and BASH script to enable system tracing, I contributed 4 change lists to the Chrome OS codebase."
     },
     {
-      "title": "Online Webfont Editor",
+      "title": "JustFont Online Webfont Editor",
       "time": "Jul. 2012 - Jun. 2013",
       "image": "/img/justfont.png",
       "description": "Webfont is a technology that displays font on websites without client side installing that font beforehand. To help web designer applying webfont on their websites, I developed from scratch an online WYSIWYG webfont editor, written in PHP and Javascript."
     },
     {
+      "title": "Project T",
+      "time": "Mar. 2013 - Jun. 2013",
+      "image": "/img/t.png",
+      "description": "This project aimed to highlight the importance and meaning of friendship. 58 T-shirts, hand drawn by me, were given as gifts to my best friends, where the design reflected the impression I had for each friend."
+    },
+    {
       "title": "IPC2581 to Gerber Converter",
       "time": "Mar. 2013 - May. 2013",
-      "image": "/img/unknown.png",
-      "description": "IPC2581 is a newly-introduced format of Printed Circuit Board (PCB) files. I developed this program to convert IPC2581 to Gerber, a more widely-used format of PCB files."
+      "image": "/img/ipc2581.png",
+      "description": "IPC2581 is a newly-introduced format of Printed Circuit Board (PCB) files. I developed this program in C++ that converts IPC2581 to Gerber, a more widely-used format of PCB files."
     },
     {
-      "title": "Projector-Camera System",
-      "time": "",
-      "image": "/img/unknown.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "title": "Radiometric Compensation on Procam System",
+      "time": "Jul. 2011 - Feb. 2013",
+      "image": "/img/procams.png",
+      "description": "We developed a radiometric compensation framework on a projector-camera (procam) system, whose projection was perceived undistorted on colored projection surface. The system, written in Matlab and C++, included a webcam for capturing, a laptop for computation, and a projector to project the corrected image.",
+      "team": "Tai-Hsiang Huang, Homer Chen"
     },
     {
-      "title": "Quality Enhancement of Dimmed Images",
-      "time": "",
-      "image": "/img/unknown.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      "title": "Quality Assessment of Dimmed Images",
+      "time": "Jul. 2011 - Feb. 2013",
+      "image": "/img/lenna.png",
+      "description": "In this research project, we explored how human visual system perceives the quality of dimmed image. A visibility model, more adherent to human perception, is developed to predict the perceived image quality. This project is written in Matlab.",
+      "team": "Tai-Hsiang Huang, Homer Chen"
     }
   ]
 }
