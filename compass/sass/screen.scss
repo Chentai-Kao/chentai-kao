@@ -4,6 +4,7 @@
  * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3/transform";
 
 $header-height: 100px;
 $header-left-width: 300px;
@@ -86,6 +87,7 @@ body {
       .content {
         width: $content-width;
         margin: 0 auto;
+        background: white;
 
         .event {
           padding: 20px 0px;
@@ -161,6 +163,18 @@ body {
 
   .section {
     border-bottom: 2px solid $color-section;
+  }
+
+  .section:before {
+    color: #eee;
+    content: attr(data-section-title);
+    font-size: 100px;
+    font-weight: 900;
+    z-index: -1;
+    position: absolute;
+    padding: 50px 20px;
+    @include transform-origin(0, 0);
+    @include transform(rotate(-90deg) translateX(-100%));
   }
 
   .event-bar {

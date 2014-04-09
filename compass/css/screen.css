@@ -67,11 +67,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 body {
   font-family: sans-serif;
 }
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 body .container .header-container {
   width: 100%;
   height: 100px;
@@ -79,26 +79,26 @@ body .container .header-container {
   z-index: 999;
   background-color: white;
 }
-/* line 43, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 body .container .header-container .header-content {
   width: 600px;
   margin: 0 auto;
   padding-top: 30px;
 }
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 body .container .header-container .header-content .name {
   display: inline-block;
   font-size: 400%;
   font-weight: bold;
   vertical-align: bottom;
 }
-/* line 55, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 body .container .header-container .header-content .nav-container {
   display: inline-block;
   margin-left: 20px;
   vertical-align: bottom;
 }
-/* line 60, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 body .container .header-container .header-content .nav-container .nav {
   display: inline-block;
   position: relative;
@@ -106,105 +106,126 @@ body .container .header-container .header-content .nav-container .nav {
   font-size: 150%;
   font-weight: bolder;
 }
-/* line 67, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 body .container .header-container .header-content .nav-container .nav a {
   color: #aaaaaa;
 }
-/* line 71, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 body .container .header-container .header-content .nav-container .nav a.highlight {
   color: #555555;
 }
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 body .container .header-container .header-content .nav-container #mail-icon {
   margin: 10px;
 }
-/* line 24, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 body .container .content-container {
   padding-top: 100px;
 }
-/* line 27, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 body .container .content-container ~ .content-container {
   padding-top: 0px;
 }
-/* line 86, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 body .container .content-container .content {
   width: 600px;
   margin: 0 auto;
+  background: white;
 }
-/* line 90, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 body .container .content-container .content .event {
   padding: 20px 0px;
 }
-/* line 93, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 body .container .content-container .content .event .event-title {
   font-size: 150%;
   font-weight: bolder;
   color: #555555;
 }
-/* line 99, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 body .container .content-container .content .event .event-time {
   color: #aaaaaa;
   margin-top: 3px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail {
   margin-top: 10px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-image {
   display: inline-block;
   vertical-align: top;
 }
-/* line 111, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-image img {
   width: 50px;
   height: 50px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description {
   display: inline-block;
   vertical-align: top;
   width: 540px;
   margin-left: 5px;
 }
-/* line 123, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description .event-brief {
   color: #555555;
 }
-/* line 126, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description .event-brief a {
   color: #555555;
 }
-/* line 131, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description .event-team, body .container .content-container .content .event .event-detail .event-description .event-paper, body .container .content-container .content .event .event-detail .event-description .event-code {
   color: #aaaaaa;
   margin-top: 5px;
 }
-/* line 135, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description .event-team a, body .container .content-container .content .event .event-detail .event-description .event-paper a, body .container .content-container .content .event .event-detail .event-description .event-code a {
   color: #aaaaaa;
 }
-/* line 140, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description a {
   font-weight: bolder;
 }
-/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 body .container .content-container .content .event .event-detail .event-description a.over {
   color: #aaaaaa;
 }
-/* line 154, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 body a {
   text-decoration: none;
 }
-/* line 158, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 body .invisible {
   display: none;
 }
-/* line 162, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 body .section {
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 166, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
+body .section:before {
+  color: #eee;
+  content: attr(data-section-title);
+  font-size: 100px;
+  font-weight: 900;
+  z-index: -1;
+  position: absolute;
+  padding: 50px 20px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(-90deg) translateX(-100%);
+  -moz-transform: rotate(-90deg) translateX(-100%);
+  -ms-transform: rotate(-90deg) translateX(-100%);
+  -o-transform: rotate(-90deg) translateX(-100%);
+  transform: rotate(-90deg) translateX(-100%);
+}
+/* line 180, ../sass/screen.scss */
 body .event-bar {
   border-bottom: 1px dotted #aaaaaa;
 }
