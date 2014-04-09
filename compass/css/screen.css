@@ -207,7 +207,7 @@ body .section {
 }
 /* line 168, ../sass/screen.scss */
 body .section:before {
-  color: #eee;
+  color: #eeeeee;
   content: attr(data-section-title);
   font-size: 100px;
   font-weight: 900;

@@ -14,12 +14,12 @@ $nav-font-size: 150%;
 $nav-margin: 10px;
 $event-image-size: 50px;
 $content-width: 600px;
-$color-name: #222;
 $color-section: #d6d6d6;
 $color-light: #aaa;
 $color-dark: #555;
 $color-link: #55f;
 $color-link-over: $color-light;
+$color-section-title-background: #eee;
 
 @mixin yield-to-header {
   .content-container {
@@ -39,7 +39,7 @@ body {
       height: $header-height;
       position: fixed;
       z-index: 999;
-      background-color: rgba(white, 1);
+      background-color: white;
 
       .header-content {
         width: $content-width;
@@ -166,7 +166,7 @@ body {
   }
 
   .section:before {
-    color: #eee;
+    color: $color-section-title-background;
     content: attr(data-section-title);
     font-size: 100px;
     font-weight: 900;
