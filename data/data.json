@@ -4,25 +4,25 @@
       {
         "title": "Stanford University",
         "time": "Sep. 2013 - Jun. 2015 (expected)",
-        "image": "/img/stanford.png",
+        "image": "/img/stanford-small.png",
         "description": "A master student in computer science, I focused on artificial intelligence and human-computer interaction. In Winter 2013, I was the TA of <a href=\"http://cvgl.stanford.edu/teaching/cs231a_winter1314\" target=\"_blank\">CS 231A</a>, \"Computer Vision: from 3D reconstruction to recognition\"."
       },
       {
         "title": "Google",
         "time": "Jul. 2013 - Aug. 2013",
-        "image": "/img/google.png",
+        "image": "/img/google-small.png",
         "description": "As a software engineer intern at Google Taipei, I worked on Chrome OS project and visualized kernel function calls of its graphics driver."
       },
       {
         "title": "JustFont",
         "time": "Jul. 2012 - Jun. 2013",
-        "image": "/img/justfont.png",
+        "image": "/img/justfont-small.png",
         "description": "I joined <a href=\"http://www.justfont.com\" target=\"_blank\">JustFont</a>, a leading startup providing Chinese webfont service, as a software engineer intern. I was responsible for developing an online webfont editor and maintaining JustFont's website."
       },
       {
         "title": "National Taiwan University",
         "time": "Sep. 2008 - Jun. 2012",
-        "image": "/img/ntu.png",
+        "image": "/img/ntu-small.png",
         "description": "Majoring in electrical engineering, I explored extensively in fields spanning from hardware to software. Some examples included solar cells, semiconductors, microcontroller, bio-engineering, and image processing."
       }
     ]
@@ -32,7 +32,7 @@
     {
       "title": "RolX on SNAP",
       "time": "Jan. 2014 - Mar. 2014",
-      "image": "/img/snap.png",
+      "image": "/img/snap-small.png",
       "description": "Joining the Stanford Network Analysis Project (SNAP) team led by <a href=\"http://cs.stanford.edu/people/jure/\" target=\"_blank\">Jure</a>, I did research on SNAP by implementing <a href=\"http://www.cs.cmu.edu/~dkoutra/papers/12-kdd-recursiverole.pdf\" target=\"_blank\">RolX</a>, an algorithm able to extract roles of nodes in a large network, with Python and C++.",
       "team": "Tai Guo",
       "code": "<a href=\"https://github.com/Cobra-Kao/rolx\" target=\"_blank\">Github</a>"
@@ -40,7 +40,7 @@
     {
       "title": "Synckr",
       "time": "Jan. 2014 - Mar. 2014",
-      "image": "/img/synckr.png",
+      "image": "/img/synckr-small.png",
       "description": "With intuitive interface and integration of Google calendar, <a href=\"http://synckr.com\" target=\"_blank\">Synckr</a> makes event scheduling easier than ever. I was responsible for backend development with Node.js and MongoDB.",
       "team": "<a href=\"http://andrew-liu.info\" target=\"_blank\">Andrew Liu</a>, Jocelin Ho",
       "code": "<a href=\"https://github.com/Cobra-Kao/synckr\" target=\"_blank\">Github</a>"
@@ -48,7 +48,7 @@
     {
       "title": "Automatic Aesthetic Photo-rating System",
       "time": "Sep. 2013 - Jan. 2014",
-      "image": "/img/aaps.png",
+      "image": "/img/aaps-small.png",
       "description": "To help photographers taking pictures, we built a system that rates the aesthetic of photos with accuracy as high as 82%, utilizing computer vision and machine learning techniques. My responsibility was generating aesthetic features from various photographic principles with OpenCV and C++.",
       "team": "<a href=\"http://andrew-liu.info\" target=\"_blank\">Andrew Liu</a>, Claire Wu",
       "code": "<a href=\"https://bitbucket.org/eggegg/ml-project\" target=\"_blank\">Bitbucket</a>"
@@ -56,32 +56,32 @@
     {
       "title": "Graphics Driver Evaluation of Chrome OS",
       "time": "Jul. 2013 - Aug. 2013",
-      "image": "/img/chromeos.png",
+      "image": "/img/chromeos-small.png",
       "description": "In this intern project at Google, I worked on visualizing kernel function calls and performance evaluation of graphics driver. Using C in Linux kernel, Python for automated test, Javascript for visualization, and BASH script to enable system tracing, I contributed 4 change lists to the Chrome OS codebase."
     },
     {
       "title": "JustFont Online Webfont Editor",
       "time": "Jul. 2012 - Jun. 2013",
-      "image": "/img/justfont.png",
+      "image": "/img/justfont-small.png",
       "description": "Webfont is a technology that displays font on websites without client side installing that font beforehand. To help web designer applying webfont on their websites, I developed from scratch an online WYSIWYG webfont editor, written in PHP and Javascript."
     },
     {
       "title": "Project T",
       "time": "Mar. 2013 - Jun. 2013",
-      "image": "/img/t.png",
+      "image": "/img/t-small.png",
       "description": "This project aimed to highlight the importance and meaning of friendship. 58 T-shirts, hand drawn by me, were given as gifts to my best friends, where the design reflected the impression I had for each friend."
     },
     {
       "title": "IPC2581 to Gerber Converter",
       "time": "Mar. 2013 - May. 2013",
-      "image": "/img/ipc2581.png",
+      "image": "/img/ipc2581-small.png",
       "description": "IPC2581 is a newly-introduced format of Printed Circuit Board (PCB) files. I developed this program in C++ that converts IPC2581 to Gerber, a more widely-used format of PCB files.",
       "code": "<a href=\"https://github.com/Cobra-Kao/ipc2581_to_odb\" target=\"_blank\">Github</a>"
     },
     {
       "title": "Radiometric Compensation on a Procam System",
       "time": "Jul. 2011 - Feb. 2013",
-      "image": "/img/procams.png",
+      "image": "/img/procams-small.png",
       "description": "We developed a radiometric compensation framework on a projector-camera (procam) system, whose projection was perceived undistorted on colored projection surface. The system, written in Matlab and C++, included a webcam for capturing, a laptop for computation, and a projector to project the corrected image.",
       "team": "Tai-Hsiang Huang, <a href=\"http://www.ee.ntu.edu.tw/bio?id=60\" target=\"_blank\">Homer Chen</a>",
       "paper": "<a href=\"/data/mmsp.pdf\" target=\"_blank\">MMSP</a>, <a href=\"/data/jei.pdf\" target=\"_blank\">JEI</a>"
@@ -89,7 +89,7 @@
     {
       "title": "Quality Assessment of Dimmed Images",
       "time": "Jul. 2011 - Feb. 2013",
-      "image": "/img/lenna.png",
+      "image": "/img/lenna-small.png",
       "description": "In this research project, we explored how human visual system perceives the quality of dimmed image. A visibility model, more adherent to human perception, is developed to predict the perceived image quality. This project is written in Matlab.",
       "team": "Tai-Hsiang Huang, <a href=\"http://www.ee.ntu.edu.tw/bio?id=60\" target=\"_blank\">Homer Chen</a>",
       "paper": "<a href=\"/data/hvei.pdf\" target=\"_blank\">HVEI</a>, <a href=\"/data/qomex.pdf\" target=\"_blank\">QoMEX</a>"
