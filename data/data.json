@@ -43,7 +43,8 @@
       "image": "/img/synckr-small.png",
       "description": "With intuitive interface and integration of Google calendar, <a href=\"http://synckr.com\">Synckr</a> makes event scheduling easier than ever. I was responsible for backend development with Node.js and MongoDB.",
       "team": "<a href=\"http://andrew-liu.info\">Andrew Liu</a>, Jocelin Ho",
-      "code": "<a href=\"https://github.com/Cobra-Kao/synckr\">Github</a>"
+      "code": "<a href=\"https://github.com/Cobra-Kao/synckr\">Github</a>",
+      "poster": "<a href=\"/data/synckr.pdf\">PDF</a>"
     },
     {
       "title": "Automatic Aesthetic Photo-rating System",
@@ -51,7 +52,8 @@
       "image": "/img/aaps-small.png",
       "description": "To help photographers taking pictures, we built a system that rates the aesthetic of photos with accuracy as high as 82%, utilizing computer vision and machine learning techniques. My responsibility was generating aesthetic features from various photographic principles with OpenCV and C++.",
       "team": "<a href=\"http://andrew-liu.info\">Andrew Liu</a>, Claire Wu",
-      "code": "<a href=\"https://bitbucket.org/eggegg/ml-project\">Bitbucket</a>"
+      "code": "<a href=\"https://bitbucket.org/eggegg/ml-project\">Bitbucket</a>",
+      "poster": "<a href=\"/data/aaps.pdf\">PDF</a>"
     },
     {
       "title": "Graphics Driver Evaluation of Chrome OS",

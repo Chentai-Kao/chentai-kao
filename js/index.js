@@ -22,6 +22,9 @@ $(function() {
           if (typeof e.code !== "undefined") {
             t.find(".event-code").html("Code: " + e.code);
           }
+          if (typeof e.poster !== "undefined") {
+            t.find(".event-poster").html("Poster: " + e.poster);
+          }
           $(targetSelector).append(t);
         }
         $(targetSelector + "> div:last-child").removeClass("event-bar");

@@ -177,12 +177,12 @@ body .container .content-container .content .event .event-detail .event-descript
   color: #555555;
 }
 /* line 133, ../sass/screen.scss */
-body .container .content-container .content .event .event-detail .event-description .event-team, body .container .content-container .content .event .event-detail .event-description .event-paper, body .container .content-container .content .event .event-detail .event-description .event-code {
+body .container .content-container .content .event .event-detail .event-description .info {
   color: #aaaaaa;
   margin-top: 5px;
 }
 /* line 137, ../sass/screen.scss */
-body .container .content-container .content .event .event-detail .event-description .event-team a, body .container .content-container .content .event .event-detail .event-description .event-paper a, body .container .content-container .content .event .event-detail .event-description .event-code a {
+body .container .content-container .content .event .event-detail .event-description .info a {
   color: #aaaaaa;
 }
 /* line 142, ../sass/screen.scss */
