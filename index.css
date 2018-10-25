@@ -1,0 +1,70 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f8f8f8;
+  color: #444;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #44c;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 50px;
+  margin: 40px auto 40px 10px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #444;
+}
+
+.summary {
+  max-width: 600px;
+  font-size: 30px;
+  margin: 40px auto 40px auto;
+  color: #aaa;
+}
+
+.contact {
+  max-width: 600px;
+  font-size: 20px;
+  margin: 40px 10px 40px auto;
+  color: #aaa;
+  text-align: end;
+}
+
+.past {
+  max-width: 600px;
+  margin: 100px auto auto auto;
+  display: table;
+}
+
+.experience {
+  margin-top: 20px;
+  display: table;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.description {
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.text {
+  margin: 5px;
+  font-size: 20px;
+}
