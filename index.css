@@ -1,7 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   background-color: #f8f8f8;
-  color: #444;
+  color: #777;
 }
 
 hr {
@@ -12,13 +12,14 @@ a,
 a:hover,
 a:visited {
   text-decoration: none;
-  color: #44c;
+  color: #07f;
   font-weight: bold;
 }
 
 .name {
-  font-size: 50px;
-  margin: 40px auto 40px 10px;
+  font-size: 30px;
+  color: #444;
+  margin: 40px auto 80px 10px;
 }
 
 .highlight {
@@ -27,22 +28,21 @@ a:visited {
 }
 
 .summary {
-  max-width: 600px;
-  font-size: 30px;
-  margin: 40px auto 40px auto;
-  color: #aaa;
+  max-width: 800px;
+  font-size: 50px;
+  margin: 80px auto 80px auto;
+  text-align: center;
 }
 
 .contact {
-  max-width: 600px;
-  font-size: 20px;
-  margin: 40px 10px 40px auto;
-  color: #aaa;
+  max-width: 800px;
+  font-size: 30px;
+  margin: 80px 10px 80px auto;
   text-align: end;
 }
 
 .past {
-  max-width: 600px;
+  max-width: 800px;
   margin: 100px auto auto auto;
   display: table;
 }
@@ -64,7 +64,8 @@ a:visited {
   padding-left: 20px;
 }
 
-.text {
+.position,
+.institute {
   margin: 5px;
-  font-size: 20px;
+  font-size: 30px;
 }
