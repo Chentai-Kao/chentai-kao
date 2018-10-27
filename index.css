@@ -1,7 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #f8f8f8;
-  color: #777;
+  background-color: #202124;
+  color: #eee;
 }
 
 hr {
@@ -12,22 +12,22 @@ a,
 a:hover,
 a:visited {
   text-decoration: none;
-  color: #07f;
+  color: #fd0;
   font-weight: bold;
 }
 
 .name {
   font-size: 30px;
-  color: #444;
-  margin: 50px auto 100px 10px;
+  margin: 20px auto 100px 20px;
 }
 
 .highlight {
   font-weight: bold;
-  color: #444;
+  color: #fafafa;
 }
 
 .summary {
+  color: #bbb;
   max-width: 800px;
   font-size: 40px;
   margin: 100px auto 100px auto;
