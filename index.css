@@ -29,14 +29,14 @@ a:visited {
 
 .summary {
   max-width: 800px;
-  font-size: 50px;
+  font-size: 40px;
   margin: 100px auto 100px auto;
   text-align: center;
 }
 
 .contact {
   max-width: 800px;
-  font-size: 30px;
+  font-size: 20px;
   margin: 100px 10px 100px auto;
   text-align: end;
 }
@@ -69,5 +69,5 @@ a:visited {
 .position,
 .institute {
   margin: 5px;
-  font-size: 30px;
+  font-size: 20px;
 }
