@@ -12,22 +12,22 @@ a,
 a:hover,
 a:visited {
   text-decoration: none;
-  color: #fd0;
+  color: #fafafa;
   font-weight: bold;
 }
 
 .name {
   font-size: 30px;
   margin: 20px auto 100px 20px;
+  font-weight: normal;
 }
 
 .highlight {
-  font-weight: bold;
   color: #fafafa;
 }
 
 .summary {
-  color: #bbb;
+  color: #aaa;
   max-width: 800px;
   font-size: 40px;
   margin: 100px auto 100px auto;
@@ -63,10 +63,8 @@ a:visited {
 }
 
 .description {
-  border-left: 1px solid #ccc;
   display: inline-block;
-  margin-left: 20px;
-  padding-left: 20px;
+  margin-left: 15px;
 }
 
 .position,
