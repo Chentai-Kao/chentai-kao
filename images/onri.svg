@@ -1,0 +1,19 @@
+<svg width="125" height="30" viewBox="0 0 125 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.5 20C27.5 20.9849 27.306 21.9602 26.9291 22.8701C26.5522 23.7801 25.9997 24.6069 25.3033 25.3033C24.6069 25.9997 23.7801 26.5522 22.8701 26.9291C21.9602 27.306 20.9849 27.5 20 27.5" stroke="black" stroke-width="5"/>
+<path d="M10 27.5C9.01509 27.5 8.03982 27.306 7.12987 26.9291C6.21993 26.5522 5.39314 25.9997 4.6967 25.3033C4.00026 24.6069 3.44781 23.7801 3.0709 22.8701C2.69399 21.9602 2.5 20.9849 2.5 20" stroke="black" stroke-width="5"/>
+<path d="M2.5 10C2.5 9.01508 2.69399 8.03981 3.0709 7.12987C3.44782 6.21993 4.00026 5.39314 4.6967 4.6967C5.39314 4.00026 6.21994 3.44781 7.12988 3.0709C8.03982 2.69399 9.01509 2.5 10 2.5" stroke="black" stroke-width="5"/>
+<path d="M20 2.5C20.9849 2.5 21.9602 2.69399 22.8701 3.0709C23.7801 3.44781 24.6069 4.00026 25.3033 4.6967C25.9997 5.39314 26.5522 6.21993 26.9291 7.12988C27.306 8.03982 27.5 9.01509 27.5 10" stroke="black" stroke-width="5"/>
+<line x1="9.5" y1="2.5" x2="20.5" y2="2.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="9.5" y1="27.5" x2="20.5" y2="27.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="2.5" y1="9.5" x2="2.5" y2="20.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="27.5" y1="9.5" x2="27.5" y2="20.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path d="M42.5 10C42.5 9.01508 42.694 8.03981 43.0709 7.12987C43.4478 6.21993 44.0003 5.39314 44.6967 4.6967C45.3931 4.00026 46.2199 3.44781 47.1299 3.0709C48.0398 2.69399 49.0151 2.5 50 2.5" stroke="black" stroke-width="5"/>
+<path d="M60 2.5C60.9849 2.5 61.9602 2.69399 62.8701 3.0709C63.7801 3.44781 64.6069 4.00026 65.3033 4.6967C65.9997 5.39314 66.5522 6.21993 66.9291 7.12988C67.306 8.03982 67.5 9.01509 67.5 10" stroke="black" stroke-width="5"/>
+<line x1="49.5" y1="2.5" x2="60.5" y2="2.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="42.5" y1="9.5" x2="42.5" y2="27.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path d="M82.5 10C82.5 9.01508 82.694 8.03981 83.0709 7.12987C83.4478 6.21993 84.0003 5.39314 84.6967 4.6967C85.3931 4.00026 86.2199 3.44781 87.1299 3.0709C88.0398 2.69399 89.0151 2.5 90 2.5" stroke="black" stroke-width="5"/>
+<line x1="89.5" y1="2.5" x2="107.5" y2="2.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="82.5" y1="9.5" x2="82.5" y2="27.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="67.5" y1="9.5" x2="67.5" y2="27.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line x1="122.5" y1="2.5" x2="122.5" y2="27.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</svg>
