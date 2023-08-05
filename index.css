@@ -17,7 +17,6 @@ a,
 a:hover,
 a:visited {
   text-decoration: none;
-  font-weight: bold;
   color: inherit;
 }
 
@@ -72,9 +71,13 @@ a:visited {
   vertical-align: middle;
 }
 
-.logo img {
+.logo-image {
   height: 2rem;
   width: 2rem;
+}
+
+.logo-text {
+  font-weight: 500;
 }
 
 .social-links {
