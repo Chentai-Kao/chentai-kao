@@ -51,13 +51,14 @@ a:visited {
 }
 
 .name {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-.summary {
-  font-size: 2.5rem;
+.summary + .summary {
+  margin-top: 1rem;
 }
 
+.summary,
 .title {
   font-size: 2rem;
 }
@@ -102,7 +103,7 @@ a:visited {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   grid-template-columns: repeat(12, 1fr);
-  /* background-color: black; */
+  background-color: black;
   animation: fadein 1s;
 }
 
