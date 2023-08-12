@@ -27,7 +27,6 @@ header {
 
 .box {
   padding: 0.5rem;
-  font-size: 1.5rem;
 }
 
 .white {
@@ -64,30 +63,26 @@ header {
   font-size: 2rem;
 }
 
-.title + .experience,
-.experience + .experience {
-  margin-top: 16px;
+.experience {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .logo {
-  height: 2rem;
-  width: 2rem;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.logo-image {
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.logo-text {
-  font-weight: 300;
-}
-
 .social-links {
-  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 0.5rem;
 }
 
 @keyframes fadein {
