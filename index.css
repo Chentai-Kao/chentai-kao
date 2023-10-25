@@ -218,6 +218,31 @@ header {
   grid-column: 9 / 13;
 }
 
+.grid-6-1 {
+  grid-row: 18 / 22;
+  grid-column: 1 / 2;
+}
+
+.grid-6-2-1 {
+  grid-row: 18 / 21;
+  grid-column: 2 / 8;
+}
+
+.grid-6-2-2 {
+  grid-row: 21 / 22;
+  grid-column: 2 / 8;
+}
+
+.grid-6-3-1 {
+  grid-row: 18 / 19;
+  grid-column: 8 / 13;
+}
+
+.grid-6-3-2 {
+  grid-row: 19 / 22;
+  grid-column: 8 / 13;
+}
+
 @media (max-width: 900px)  {
   .grid {
     grid-template-columns: repeat(6, 1fr);
@@ -248,7 +273,7 @@ header {
 
   .grid-2-3-1 {
     grid-row: 6 / 8;
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
   }
 
   .grid-2-3-2-1 {
@@ -258,12 +283,12 @@ header {
 
   .grid-2-3-2-2 {
     grid-row: 8 / 10;
-    grid-column: 3 / 5;
+    grid-column: 3 / 6;
   }
 
   .grid-2-4 {
     grid-row: 6 / 10;
-    grid-column: 5 / 7;
+    grid-column: 6 / 7;
   }
 
   .grid-3-1 {
@@ -331,5 +356,29 @@ header {
   .grid-5-3 {
     grid-row: 22 / 25;
     grid-column: 2 / 7;
+  }
+
+  .grid-6-1 {
+    grid-row: 25 / 29;
+    grid-column: 1 / 2;
+  }
+
+  .grid-6-2-1 {
+    grid-row: 25 / 29;
+    grid-column: 2 / 6;
+  }
+
+  .grid-6-2-2 {
+    display: none;
+  }
+
+  .grid-6-3-1 {
+    grid-row: 25 / 27;
+    grid-column: 6 / 7;
+  }
+
+  .grid-6-3-2 {
+    grid-row: 27 / 29;
+    grid-column: 6 / 7;
   }
 }
